@@ -1,0 +1,60 @@
+.layui-body table>thead .top,
+.down {
+    display: block;
+    font-size: 12px;
+}
+
+.layui-body table td {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.layui-body .title_down {
+    height: 55px;
+    padding-top: 15px;
+    margin-top: 10px;
+}
+
+.layui-body .title_down>span {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 8px;
+    color: #333;
+    text-align: right;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.layui-body .title_down>div>ul>li {
+    float: left;
+    line-height: 25px;
+    height: 25px;
+    padding: 0 10px;
+    margin: 0 6px;
+    color: #333;
+    margin-top: 5px;
+    border: 1px solid #e8e8e8;
+    vertical-align: middle;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.layui-body .title_down>div>span {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+    margin: 0 6px;
+    color: #999;
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.layui-body .title_down>div>ul .li_active {
+    color: #fff;
+    background: #2db4ea;
+    border: 1px solid #2db4ea;
+}
